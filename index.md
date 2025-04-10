@@ -4,17 +4,16 @@ description: Any type of add on that can be provisioned alongside your app. For 
 owner: Core Services
 ---
 
-
 Managed Services are defined as having been integrated
-with <%= vars.app_runtime_first %> through APIs, and allow you to provision reserved resources and credentials on demand. For documentation targeted at end users, such as how to provision services and integrate them with apps, see [Services](overview.html). This section is intended for developers and operators interested in creating Managed Services for <%= vars.app_runtime_first %>.
+with <AppRuntimeFirst/> through APIs, and allow you to provision reserved resources and credentials on demand. For documentation targeted at end users, such as how to provision services and integrate them with apps, see [Services](overview.html). This section is intended for developers and operators interested in creating Managed Services for <AppRuntimeFirst/>.
 
-To develop Managed Services for <%= vars.app_runtime_abbr %>, you need a <%= vars.app_runtime_abbr %> instance to allow testing your service broker as you are developing it. You must have admin access to your <%= vars.app_runtime_abbr %> instance to manage service brokers and the services marketplace catalog. For local development, <%= vars.recommended_by %> recommends using the [BOSH guide](https://bosh.io/docs/quick-start/) to deploy your own local instance of <%= vars.app_runtime_abbr %> using VirtualBox.
+To develop Managed Services for <AppRuntimeAbbr/>, you need a <AppRuntimeAbbr/> instance to allow testing your service broker as you are developing it. You must have admin access to your <AppRuntimeAbbr/> instance to manage service brokers and the services marketplace catalog. For local development, <RecommendedBy/> recommends using the [BOSH guide](https://bosh.io/docs/quick-start/) to deploy your own local instance of <AppRuntimeAbbr/> using VirtualBox.
 
-<%= vars.tiledev_link %>
+<TiledevLink/>
 
 ## Table of Contents
 
-* [Services](overview.html)
+* [Services](docs/overview.md)
 
 * **Service Broker API**
 
@@ -44,4 +43,4 @@ To develop Managed Services for <%= vars.app_runtime_abbr %>, you need a <%= var
 
 * [Offering Route Services in Cloud Foundry](route-services.html)
 
-* [Supporting multiple <%= vars.app_runtime_abbr %> Instances](supporting-multiple-cf-instances.html)
+* [Supporting multiple <AppRuntimeAbbr/> Instances](supporting-multiple-cf-instances.html)
